@@ -23,7 +23,7 @@ export default function Burger() {
         >
           Property <ArrowDown className="ml-[14px]" />
         </Link>
-        <div className="invisible absolute mt-0 w-3/4 rounded-lg border bg-white p-4 opacity-0 transition-all hover:visible hover:opacity-100 peer-hover:visible peer-hover:opacity-100">
+        <div className="invisible absolute mt-0 w-max rounded-lg border bg-white p-4 opacity-0 transition-all hover:visible hover:opacity-100 peer-hover:visible peer-hover:opacity-100">
           <Link className="mb-3 transition-all hover:text-gray-200" href={"#"}>
             House
           </Link>

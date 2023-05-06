@@ -61,28 +61,30 @@ export default function Header() {
     <div className="container relative">
       <header className="absolute left-0 top-[40px] z-10 flex w-full items-center justify-between px-[15px]">
         <Logo className="z-10" />
-        <Hamburger
-          color="#1b1c57"
-          toggled={isHamburgerOpen}
-          toggle={handleHamburger}
-        />
+        <div className="block lg:hidden">
+          <Hamburger
+            color="#1b1c57"
+            toggled={isHamburgerOpen}
+            toggle={handleHamburger}
+          />
+        </div>
         <nav className="hidden text-[14px] font-semibold text-white lg:flex">
           <Link
             href={"#"}
-            className="mr-[24px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
+            className="mr-[20px] xl:mr-[24px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
           >
             About Us
           </Link>
           <Link
             href={"#"}
-            className="mr-[24px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
+            className="mr-[20px] xl:mr-[24px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
           >
             Article
           </Link>
           <div className="relative">
             <Link
               href={"#"}
-              className="peer mr-[56px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
+              className="peer h-full mr-[40px] xl:mr-[56px] flex items-center rounded-full border border-[rgba(255,255,255,0.3)] bg-[rgba(255,255,255,0.1)] px-[16px] py-[8px] transition-all hover:bg-white hover:text-gray-200"
             >
               Property <ArrowDown className="ml-[14px]" />
             </Link>
