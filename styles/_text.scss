@@ -1,0 +1,35 @@
+@use "mixin" as *;
+
+h1 {
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  @include adaptiv-font(30, 40);
+}
+h2 {
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  @include adaptiv-font(22, 32);
+}
+h3 {
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  @include adaptiv-font(20, 24);
+}
+h4 {
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  @include adaptiv-font(16, 18);
+}
+h5 {
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  @include adaptiv-font(14, 16);
+
+  &.subtitle {
+    @include adaptiv-font(12, 14);
+  }
+}
+p {
+  line-height: 28px !important;
+  @include adaptiv-font(11, 16);
+}
