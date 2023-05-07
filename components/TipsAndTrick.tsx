@@ -24,7 +24,7 @@ export default function TipsAndTrick() {
             <Image
               src={firstImg}
               alt="first post"
-              className="mb-5 mr-5 max-w-[200px] sm:mb-0 sm:mr-[32px]"
+              className="mb-5 w-full sm:max-w-[200px] sm:mb-0 sm:mr-[32px]"
             />
             <div>
               <div className="mb-[12px] flex items-center">
@@ -52,7 +52,7 @@ export default function TipsAndTrick() {
             <Image
               src={firstImg}
               alt="first post"
-              className="mb-5 mr-5 max-w-[200px] sm:mb-0 sm:mr-[32px]"
+              className="mb-5 w-full sm:max-w-[200px] sm:mb-0 sm:mr-[32px]"
             />
             <div>
               <div className="mb-[12px] flex items-center">
@@ -80,7 +80,7 @@ export default function TipsAndTrick() {
             <Image
               src={firstImg}
               alt="first post"
-              className="mb-5 mr-5 max-w-[200px] sm:mb-0 sm:mr-[32px]"
+              className="mb-5 w-full sm:max-w-[200px] sm:mb-0 sm:mr-[32px]"
             />
             <div>
               <div className="mb-[12px] flex items-center">

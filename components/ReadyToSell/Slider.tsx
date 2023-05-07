@@ -46,7 +46,7 @@ export default function Slider() {
       <Swiper
         spaceBetween={60}
         slidesPerView={1}
-        // autoplay={{ pauseOnMouseEnter: true, delay: 5000 }}
+        autoplay={{ pauseOnMouseEnter: true, delay: 5000 }}
         modules={[Autoplay]}
         allowTouchMove={false}
       >

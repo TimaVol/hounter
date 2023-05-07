@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="overflow-hidden pt-[40px] lg:h-[360px]">
+    <div className="overflow-hidden lg:pt-[60px] lg:h-[360px]">
       <footer className="container relative mb-[120px] flex flex-col justify-between gap-y-5 lg:flex-row">
         <div>
           <Logo className="mb-[16px]" />
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-y-5">
+        <div className="relative z-10 flex flex-wrap gap-y-5">
           <div className="mr-[88px] text-[14px]">
             <h4 className="mb-[24px]">Property</h4>
             <Link className="mb-[18px] text-gray-200" href={"#"}>
